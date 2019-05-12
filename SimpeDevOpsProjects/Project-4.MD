@@ -140,6 +140,6 @@ Lets modify jenkins job which was created in *Part-01* as below.
         - `docker push valaxy/$JOB_NAME:v1.$BUILD_ID`
         - `docker push valaxy/$JOB_NAME:latest`
         - `docker rmi $JOB_NAME:v1.$BUILD_ID valaxy/$JOB_NAME:v1.$BUILD_ID` 
-        - `valaxy/$JOB_NAME:latest`
+        - `valaxy/$JOB_NAME:latest`  : This Line Not req VIJAY
 ##### References
 [1] - [Jenkins Docs - Building Software Projects](https://wiki.jenkins.io/display/JENKINS/Building+a+software+project)
